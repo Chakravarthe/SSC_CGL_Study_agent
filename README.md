@@ -30,24 +30,24 @@ To give every aspirant a private, zero-judgment personal AI tutor. The system ac
 | **Onboarding & Diagnosis** | Handles user registration for target exams (SSC, Banking, UPSC, GATE, RRB). Conducts a diagnostic test and brief interactions to assess current knowledge depth, learning style (visual, text, example-based), speed, and baseline accuracy. |
 | **Learner Profile (Knowledge Graph)** | Dynamically tracks topic and subtopic mastery levels. Segregates and analyzes specific error types (conceptual, calculation, careless, time management) alongside the student's confidence trends. |
 | **Roadmap & Timeline Planner** | Works backwards from the target exam date to generate structured daily/weekly goals. Packs in fixed deadlines, buffer days, spaced-repetition revision cycles, and mock tests. Automatically re-plans the trajectory if a student falls behind. |
-| ** Concept Tutor** | Breaks hard topics into small steps and explains them with a reallife examples. it adapts the explaination when the student is stuck and offers multiple ways to explain the same idea.
-| ** Pattern Based Practice ** | Uses previous Year Papers and trend analysis. it generates problem variations on the same concept in different patterns. so the student is stuck  and offers multiple ways to explain the same idea. |
-| ** Spaced Repetition and retention agent ** | Revisits topics at increasing intervals (day 1,3,7,21 and so on) with quick quizzes and resurfaces weak areas.|
-| ** Safe doubt space ** | The student can ask anything , anonymously and without judgement. The AI never makes them feel behind. |
-| ** Motivation and wellbeing ** | Tracks streaks and small wins, shows progress against the students own baseline, and adjust the load to avoid burnout. |
-| ** Verified content** | Answers are grounded in the official syllabus, NCERT and standard text books, previous papers and authentic sources. This avoids hallucinations and incorrect history of facts.|
-| ** Mock Tests and analytics ** | Timed test with a detailed review. They identify the cause of each mistake, predict the likely score and rank and compare against the cutoff.|
-| ** Optional Human Layer | Parent, Mentor, or Teacher dashboards, and escalation to human mentors when needed. |
+| **Concept Tutor** | Breaks hard topics into small steps and explains them with a reallife examples. it adapts the explaination when the student is stuck and offers multiple ways to explain the same idea.
+| **Pattern Based Practice** | Uses previous Year Papers and trend analysis. it generates problem variations on the same concept in different patterns. so the student is stuck  and offers multiple ways to explain the same idea. |
+| **Spaced Repetition and retention agent** | Revisits topics at increasing intervals (day 1,3,7,21 and so on) with quick quizzes and resurfaces weak areas.|
+| **Safe doubt space** | The student can ask anything , anonymously and without judgement. The AI never makes them feel behind. |
+| **Motivation and wellbeing** | Tracks streaks and small wins, shows progress against the students own baseline, and adjust the load to avoid burnout. |
+| **Verified content** | Answers are grounded in the official syllabus, NCERT and standard text books, previous papers and authentic sources. This avoids hallucinations and incorrect history of facts.|
+| **Mock Tests and analytics** | Timed test with a detailed review. They identify the cause of each mistake, predict the likely score and rank and compare against the cutoff.|
+| **Optional Human Layer** | Parent, Mentor, or Teacher dashboards, and escalation to human mentors when needed. |
 
 key Differentiator : mastery based progression. The student moves forward only when the concept is understood. and the pace is set by the default, not the batch. 
 
 ## Suggested Tech Outline 
-LLM with RAG over curated exam content.
-A Student Model layer(knowledge tracing, such as Bayesian Knowledge Tracing or Deep Knowledge Tracing)
-A Scheduler (Spaced repetition like SM-2/FSRS Plus a deadline planner)
-Agents for Diagnosis, Tutoring, Planning and revision with memory
-Mobile app, whatsapp or telegram , with regional language and voice support.
-Guardrails for accuracy and a human review loop on content. 
+* LLM with RAG over curated exam content.
+* A Student Model layer(knowledge tracing, such as Bayesian Knowledge Tracing or Deep Knowledge Tracing)
+* A Scheduler (Spaced repetition like SM-2/FSRS Plus a deadline planner)
+* Agents for Diagnosis, Tutoring, Planning and revision with memory
+* Mobile app, whatsapp or telegram , with regional language and voice support.
+* Guardrails for accuracy and a human review loop on content. 
 
 
 
