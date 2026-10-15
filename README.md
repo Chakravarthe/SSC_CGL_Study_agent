@@ -48,8 +48,49 @@ key Differentiator : mastery based progression. The student moves forward only w
 * Agents for Diagnosis, Tutoring, Planning and revision with memory
 * Mobile app, whatsapp or telegram , with regional language and voice support.
 * Guardrails for accuracy and a human review loop on content. 
+  ## Global AI TUTORS and adaptive learning
+  | Competitors | Model |
+  |------------  | -------|
+  | Khan Academy (khanmigo) | An AI Tutor that guides without giving answers directly |
+  |Duolingo | Gamification , Streaks, and spaced repetition for languages |
+  | **Squirrel AI (China)** | Adaptive learning based on a knowledge graph.|
+  |**Magoosh,Kaplan,Princton review**| Test prep for GRE, GMAT, and SAT with adaptive practice.|
+  |**Quizlet, Anki,Brainscape** | Spaced repetition flashcards |
+  |**ChatGPT,GEMINI,CLAUDE(Study modes)** | General Purpose Tutors that are not exam specific or tracked long term|
 
+  ## Business Model in this space
+  * Subscriptions (montly or annualy)
+  * Freemium with paid test series.
+  * course or batch fees.
+  * ads and B2B licensing to coaching institutes.
+ 
+  # Our Opurtunity(where i can win)
+  * Persistent Personal agent: Competitors sell content or tests. You sell an ongoing, personal outcomes.
+  * Emotional safety : Judgement free space for doubts directly addresses the shyness problem.
+  * Retention and concept focus : Spaced revision combined with pattern variation.
+  * Exam-date-driven planning : This reduces stress thorough a clear timeline.
+  * Affortability and regional Language : Reach Tier-2 and tier 3 town, where coaching is expensive
+  * Possible B2B2C. Coaching centers could use it as a competition tool for their own students.
+ 
+  ## Risk to plan for
+  * Content accuracy and hallucinations
+  * Student engagement and dropout
+  * incumbents such as PW adding similar AI Features.
+  * Content Licensing and copyright for past papers.
+  * data Privacy for minors and student data.
+ 
+## Competitors and Their Models
 
+| Indian Ed-Tech | Model | Gap Relative to Your Idea |
+| :--- | :--- | :--- |
+| **Physics Wallah** | Low-cost live/recorded classes, test series, and Alakh AI for doubt solving. | **Batch-based core.** AI features are treated as an add-on layer rather than acting as a full, end-to-end personal agent. |
+| **Unacademy** | Subscription-based model for live and recorded classes with top educators, plus mock tests. | **One-to-many teaching framework.** Missing highly localized, student-specific adaptive pipelines. |
+| **Byju's** | Recorded video-based learning with basic adaptive paths. | **K-12 priority.** Extremely heavy on pre-recorded content rather than conversational logic, with market trust issues. |
+| **Testbook, Adda247, OliveBoard, Gradeup** | Mock tests, video courses, and specialized subscriptions for government exam preparation. | **Analytical but passive.** Highly proficient at testing metrics and descriptive analytics, but weak on active daily personal tutoring. |
+| **Embibe** | AI-driven analytics and personalized learning paths primarily targeted at JEE/NEET. | **Closer in concept, wrong target.** Missing the explicit focus on SSC/Banking and lacks a daily, agentic study companion feel. |
+| **Vedantu, Toppr, Doubtnut** | Live tutoring sessions, doubt solving, and instant video solutions generated from uploaded photos. | **Doubt-centric, not strategic.** Reactive to single user problems rather than holding the user accountable to a structured roadmap. |
+| **Drishti IAS, Vision IAS, StudyIQ** | Traditional coaching batches and extensive study material specifically tailored for UPSC. | **Human and batch-reliant.** Content-heavy structures with no automated micro-adjustments for individual learner speeds. |
+| **Cuemath / Eklavya-style apps** | Highly specialized, niche coaching applications. | **Narrow application.** Limited scope that fails to capture the multi-subject ecosystem required for high-volume government exams. |
 
 ### Backend Project Structure (FastAPI vs. Spring Boot)
 
