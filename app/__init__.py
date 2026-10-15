@@ -1,0 +1,1 @@
+"""SSC CGL Study Agent application package."""
